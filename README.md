@@ -27,7 +27,7 @@ CODE: https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Page_Br
 
 ---
 
-How to Download this App
+## How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
 3. Save the Zip File
