@@ -1,0 +1,123 @@
+<!-- Dedicated to God the Father -->
+<!-- All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 -->
+<!-- https://github.com/ChristopherTopalian -->
+<!-- https://github.com/ChristopherAndrewTopalian -->
+<!-- College of Scripting Music & Science -->
+<!-- Donations paypal.me/keystonermarch -->
+<!-- CATopalian_JavaScript_Page_Break_for_Printing_and_Book_Making.html -->
+
+<!-- When a person prints the page
+ each item of the array starts at the 
+ beginning of a new page -->
+
+<!-- This is also good for PDF book making. 
+ When we choose print and use Save to PDF, it will place each entry of the array at the top of each page of the PDF book -->
+
+<html>
+<head>
+<title> Topalian Page Break for Printing </title>
+
+<style>
+
+body
+{
+    background-color: rgb(170, 170, 170);
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.data
+{
+    color: rgb(0, 0, 0);
+}
+
+.pageBreak
+{
+    break-after: page;
+}
+
+</style>
+
+<script>
+
+let people = 
+[
+    {
+        name: "Jane",
+        score: 94
+    },
+
+    {
+        name: "Jennifer",
+        score: 98
+    },
+
+    {
+        name: "Tabitha",
+        score: 95
+    }
+];
+
+function ge(whichId)
+{
+    let result = document.getElementById(whichId);
+    return result;
+}
+
+function ce(whichType)
+{
+    let result = document.createElement(whichType);
+    return result;
+}
+
+function ba(whichElement)
+{
+    let result = document.body.append(whichElement);
+    return result;
+}
+
+function cl(whichMessage)
+{
+    let result = console.log(whichMessage);
+    return result;
+}
+
+function showData(whichArray)
+{
+    for (let x = 0; x < whichArray.length; x++)
+    {
+        let name = ce("div");
+        name.id = "entry";
+        name.className = "data";
+        name.textContent = whichArray[x].name;
+        ba(name);
+
+        //-//
+
+        let score = ce("div");
+        score.id = "score";
+        score.className = "data";
+        score.textContent = whichArray[x].score;
+        ba(score);
+
+        //-//
+
+        let pageBreak = ce("div");
+        pageBreak.className = "pageBreak";
+        // pageBreak.style.breakAfter = 'page';
+        ba(pageBreak);
+    }
+}
+
+</script>
+
+</head>
+
+<body onload = "showData(people);">
+
+</body>
+
+</html>
+
