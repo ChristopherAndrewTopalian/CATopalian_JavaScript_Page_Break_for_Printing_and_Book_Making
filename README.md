@@ -7,9 +7,9 @@ CODE: https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Page_Br
 
 ---
 
-### How to Download this App
-Click the green Code Button on this github page
-Choose Download ZIP
-Save the Zip File
-Extract All
-Double click the html file to start the Guitar App
+How to Download this App
+1. Click the green Code Button on this github page
+2. Choose Download ZIP
+3. Save the Zip File
+4. Extract All
+5. Double click the HTML file to start the App
