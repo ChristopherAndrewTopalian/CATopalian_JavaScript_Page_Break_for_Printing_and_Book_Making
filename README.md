@@ -1,7 +1,11 @@
 # CATopalian JavaScript Page Break for Printing and Book Making
 This JavaScript application shows how to place each entry of an array at the top of each page for Printing and PDF Book Making.
 
-![screenshot001](src/media/textures/screenshots/002.PNG)
+![screenshot001](src/media/textures/screenshots/002.PNG)  
+
+When Using the App link below, Control + P to print to see each object entry on its own page.  
+
+USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Page_Break_for_Printing_and_Book_Making/CATopalian_JavaScript_Page_Break_for_Printing_and_Book_Making.html
 
 Video: https://www.youtube.com/watch?v=AzobWNlYXs0
 
